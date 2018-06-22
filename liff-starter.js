@@ -19,7 +19,6 @@ function reply(reply_token) {
         'Authorization': 'Bearer {PZYo9CQnLFhf4XX+wX6SaN2bF0mjCoYjeR60qNXdskBVMERB/H8/qbAF1NsqHoZUmZ/FyMW4/RD6JsXzVZzvzFx7DJPYNEkM4hF3o0/aE4PRrQi7I6J1uLw9wa8azWvQtKwYwGj+TPuTNUNaZFyAowdB04t89/1O/w1cDnyilFU=}'
     }
     let body = JSON.stringify({
-        replyToken: reply_token,
         view:{
             "type":"full",
             "url":"https://example.com/myservice"
